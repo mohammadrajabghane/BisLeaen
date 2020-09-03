@@ -1,0 +1,540 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../../font/IranianSans.ttf");
+}
+
+body,
+html {
+  font-family: "MyFont";
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 99999999s ease-in-out 0s;
+  transition: background-color 99999999s ease-in-out 0s;
+}
+
+.navbar {
+  border-bottom: 2px solid #f5f5f5;
+  height: 70px;
+}
+
+.nav-item {
+  margin-right: 65px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .nav-item {
+    font-size: 10px;
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .nav-item {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+}
+
+.User_img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .User_img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .User_img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.menu_title {
+  font-size: 14px;
+  margin-top: 18px;
+  color: #616161;
+}
+
+@media (max-width: 1200px) {
+  .menu_title {
+    font-size: 12px;
+  }
+}
+
+.menu_title_product {
+  font-size: 14px;
+  margin-top: 13px;
+  color: #616161;
+}
+
+@media (max-width: 1200px) {
+  .menu_title_product {
+    font-size: 12px;
+  }
+}
+
+.promotebutton {
+  text-decoration: none;
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
+  height: 52px;
+  color: #fff;
+  background-color: #35afc8;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promotebutton.promotebutton:hover,
+.promotebutton :focus {
+  color: #fff;
+  border: none;
+}
+
+#div_icon {
+  height: 40px;
+}
+
+#div_icon:hover .img-icon {
+  color: #52b631;
+}
+
+#div_icon:hover .icon_txt {
+  color: #52b631;
+  font-size: 14px;
+}
+
+.profile_img {
+  height: 100px;
+  width: 100px;
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon_txt {
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.change-like-img {
+  cursor: pointer;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    padding-bottom: 15px;
+  }
+}
+
+.div_content {
+  margin-top: 80px;
+}
+
+@media (min-width: 992px) {
+  .div_content {
+    margin-top: 160px;
+  }
+}
+
+.inputs_row {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media (min-width: 991px) {
+  .inputs_row {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .inputs_row {
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+@-moz-document url-prefix() {
+  @media (min-width: 991px) {
+    .inputs_row {
+      margin-top: 20px;
+    }
+  }
+}
+
+input {
+  border: none !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #bdbdbd;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bdbdbd;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #bdbdbd;
+  font-size: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  :-ms-input-placeholder {
+    font-size: 14px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  ::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  :-ms-input-placeholder {
+    font-size: 16px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.input-group_Seminar {
+  border: 2px #ddd solid;
+  height: 53px;
+  margin-top: 11px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .input-group_Seminar {
+    height: 40px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .input-group_Seminar {
+    height: 45px;
+  }
+}
+
+.inputs_lbl {
+  font-size: 17px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .inputs_lbl {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+
+.price_div {
+  position: absolute;
+  top: 43%;
+  left: 14px;
+  display: block;
+  height: 51px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #bdbdbdbd;
+  text-align: center;
+  color: #212121;
+  width: 22%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 19px;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .price_div {
+    height: 37px;
+    top: 53%;
+    left: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .price_div {
+    height: 43px;
+    top: 50%;
+    left: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .price_div {
+    height: 50px;
+    top: 46%;
+    left: 14px;
+    font-size: 16px;
+  }
+}
+
+.number_div {
+  position: absolute;
+  top: 36%;
+  left: 15px;
+  display: block;
+  height: 53px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #bdbdbdbd;
+  text-align: center;
+  color: #212121;
+  width: 22%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 19px;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .number_div {
+    height: 39px;
+    top: 53%;
+    left: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .number_div {
+    height: 43px;
+    top: 50%;
+    left: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .number_div {
+    height: 50px;
+    top: 46%;
+    left: 14px;
+    font-size: 16px;
+  }
+}
+
+.plus_div {
+  width: 14%;
+  background-color: #bdbdbdbd;
+  height: 53px;
+  margin-top: 11px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .plus_div {
+    height: 40px;
+    margin-top: 3px;
+    width: 15%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .plus_div {
+    height: 45px;
+    margin-top: 3px;
+    width: 15%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .plus_div {
+    width: 20%;
+  }
+}
+
+.input-group_Seminar_plus {
+  width: 85%;
+  border: 2px #ddd solid;
+  height: 53px;
+  margin-top: 11px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .input-group_Seminar_plus {
+    height: 40px;
+    margin-top: 3px;
+    width: 83%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .input-group_Seminar_plus {
+    height: 45px;
+    margin-top: 3px;
+    width: 83%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .input-group_Seminar_plus {
+    width: 80%;
+  }
+}
+
+.plus_icon {
+  width: 25px;
+  height: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .plus_icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .plus_icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.SubmitButton {
+  text-decoration: none;
+  text-align: center;
+  width: 45%;
+  font-size: 20px;
+  height: 50px;
+  color: #fff;
+  background-color: #52b630;
+  border-radius: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.SubmitButton.SubmitButton:hover,
+.SubmitButton :focus {
+  color: #fff;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .SubmitButton {
+    font-size: 17px;
+    width: 46%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .SubmitButton {
+    font-size: 18px;
+    width: 46%;
+  }
+}
+
+.Upload_poster {
+  text-decoration: none;
+  text-align: center;
+  width: 45%;
+  font-size: 20px;
+  height: 50px;
+  color: #606060;
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  padding: 0px;
+  font-weight: bold;
+  border: #c6c6c6 1px solid;
+}
+
+.Upload_poster.Upload_poster:hover,
+.Upload_poster :focus {
+  color: #606060;
+  border: #c6c6c6 1px solid;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .Upload_poster {
+    font-size: 17px;
+    width: 46%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .Upload_poster {
+    font-size: 18px;
+    width: 46%;
+  }
+}
+/*# sourceMappingURL=Seminar1.css.map */

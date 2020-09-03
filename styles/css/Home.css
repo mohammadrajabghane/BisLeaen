@@ -1,0 +1,515 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../../font/IranianSans.ttf");
+}
+
+body,
+html {
+  font-family: "MyFont";
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 99999999s ease-in-out 0s;
+  transition: background-color 99999999s ease-in-out 0s;
+}
+
+.navbar {
+  border-bottom: 2px solid #f5f5f5;
+  height: 70px;
+}
+
+.nav-item {
+  margin-right: 65px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .nav-item {
+    font-size: 10px;
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .nav-item {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+}
+
+.User_img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .User_img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .User_img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.menu_title {
+  font-size: 14px;
+  margin-top: 18px;
+  color: #616161;
+}
+
+@media (max-width: 1200px) {
+  .menu_title {
+    font-size: 12px;
+  }
+}
+
+.menu_title_product {
+  font-size: 14px;
+  margin-top: 13px;
+  color: #616161;
+}
+
+@media (max-width: 1200px) {
+  .menu_title_product {
+    font-size: 12px;
+  }
+}
+
+.promotebutton {
+  text-decoration: none;
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
+  height: 52px;
+  color: #fff;
+  background-color: #35afc8;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promotebutton.promotebutton:hover,
+.promotebutton :focus {
+  color: #fff;
+  border: none;
+}
+
+#div_icon {
+  height: 40px;
+}
+
+#div_icon:hover .img-icon {
+  color: #52b631;
+}
+
+#div_icon:hover .icon_txt {
+  color: #52b631;
+  font-size: 14px;
+}
+
+.profile_img {
+  height: 100px;
+  width: 100px;
+}
+
+.img-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon_txt {
+  color: #000;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.change-like-img {
+  cursor: pointer;
+}
+
+.wb-bg-banner {
+  background-image: url("./../../image/Home.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  height: 100vh;
+}
+
+@media (max-width: 991px) {
+  .wb-bg-banner {
+    height: 400px;
+  }
+}
+
+.shop-bg-banner {
+  background-image: url("./../../image/banner1.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 400px;
+}
+
+@media (max-width: 991px) {
+  .shop-bg-banner {
+    height: 350px;
+  }
+}
+
+.shop-bg-banner2 {
+  background-image: url("./../../image/banner2.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 400px;
+}
+
+.shop-bg-banner3 {
+  background-image: url("./../../image/banner3.png") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 400px;
+}
+
+.enterbutton2 {
+  text-decoration: none;
+  text-align: center;
+  width: 34%;
+  font-size: 20px;
+  height: 58px;
+  color: #fff;
+  background-color: #52bd77;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.enterbutton2.enterbutton2:hover,
+.enterbutton2 :focus {
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 991px) {
+  .enterbutton2 {
+    width: 43%;
+    font-size: 17px;
+  }
+}
+
+.enterbutton4 {
+  text-decoration: none;
+  text-align: center;
+  width: 34%;
+  font-size: 20px;
+  height: 58px;
+  color: #fff;
+  background-color: #eb6451;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.enterbutton4.enterbutton4:hover,
+.enterbutton4 :focus {
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 991px) {
+  .enterbutton4 {
+    width: 43%;
+    font-size: 17px;
+  }
+}
+
+.enterbutton7 {
+  text-decoration: none;
+  text-align: center;
+  width: 34%;
+  font-size: 20px;
+  height: 58px;
+  color: #fff;
+  background-color: #3bafdd;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.enterbutton7.enterbutton7:hover,
+.enterbutton7 :focus {
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 991px) {
+  .enterbutton7 {
+    width: 43%;
+    font-size: 17px;
+  }
+}
+
+.swiper1-slide {
+  height: 440px;
+  width: 33% !important;
+  text-align: center;
+  line-height: 300px;
+  border: 1px #ecececec solid;
+  border-radius: 5px !important;
+}
+
+@-moz-document url-prefix() {
+  .swiper1-slide {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+  .swiper1-slide {
+    height: 440px;
+    width: 190px !important;
+  }
+}
+
+.swiper2-slide {
+  width: 17% !important;
+  text-align: center;
+  border-radius: 5px !important;
+}
+
+@-moz-document url-prefix() {
+  .swiper2-slide {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+  .swiper2-slide {
+    height: 180px;
+    width: 140px !important;
+  }
+}
+
+#swiper {
+  width: 31% !important;
+  text-align: center;
+  line-height: 300px;
+  border-radius: 5px !important;
+}
+
+@-moz-document url-prefix() {
+  #swiper {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+  #swiper {
+    height: 300px;
+    width: 190px !important;
+  }
+}
+
+.commodity-img-teacher {
+  width: 50px;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .commodity-img-teacher {
+    width: 57px;
+    height: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .commodity-img-teacher {
+    width: 50px;
+    height: 60%;
+  }
+}
+
+.title_txt {
+  font-size: 15px;
+}
+
+@media (max-width: 992px) {
+  .title_txt {
+    font-size: 15px;
+  }
+}
+
+.font-set-corsce-title-menu {
+  font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  .font-set-corsce-title-menu {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 739px) {
+  .font-set-corsce-title-menu {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-set-corsce-title-menu {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-set-corsce-title-menu {
+    font-size: 12px;
+  }
+}
+
+.font-set-commodity-title-menu {
+  font-size: 13px;
+}
+
+@media (min-width: 576px) {
+  .font-set-commodity-title-menu {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 739px) {
+  .font-set-commodity-title-menu {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-set-commodity-title-menu {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-set-commodity-title-menu {
+    font-size: 13px;
+  }
+}
+
+.change-like-img {
+  float: right;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.enterbutton6 {
+  text-decoration: none;
+  text-align: center;
+  width: 43%;
+  font-size: 14px;
+  height: 35px;
+  color: #fff;
+  background-color: #52bd77;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  padding: 0px;
+}
+
+.enterbutton6.enterbutton6:hover,
+.enterbutton6 :focus {
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 1550px) {
+  .enterbutton6 {
+    font-size: 12px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .enterbutton6 {
+    font-size: 10px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .enterbutton6 {
+    font-size: 11px;
+    width: 50%;
+  }
+}
+
+.event-row {
+  margin-top: 100px;
+}
+
+@media (max-width: 991px) {
+  .event-row {
+    margin-top: 50px;
+  }
+}
+
+.event_img {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 991px) {
+  .event_img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Event-tile-txt {
+    font-size: 17px;
+  }
+}
+
+.location_txt {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .location_txt {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

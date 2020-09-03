@@ -1,0 +1,273 @@
+@import "./../base";
+
+body {
+  background-color: #fafafafa;
+  @media (min-width: 991px) {
+    padding-bottom: 10px;
+  }
+}
+.content_div {
+  margin-top: 135px;
+}
+.small_nav_name {
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 15px;
+  }
+}
+.content_div_mobile {
+  margin-top: 60px;
+}
+.allprof_txt {
+  font-size: 17px;
+  color: #000;
+}
+.set-size-img {
+  width: 20px;
+
+  @media (max-width: 1200px) {
+    width: 17px;
+  }
+
+  @media (max-width: 1083px) {
+    width: 15px;
+  }
+
+  @media (max-width: 766px) {
+    width: 13px;
+  }
+
+  @media (max-width: 453px) {
+    width: 10px;
+  }
+}
+
+.user_img {
+  width: 270px;
+  height: 250px;
+  border: 2px solid #c2c2c2c2;
+  border-radius: 5px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    width: 140px;
+    height: 140px;
+  }
+  @media (min-width: 768px) and(max-width: 991px) {
+    width: 200px;
+    height: 200px;
+  }
+  @media (min-width: 992px) and(max-width: 1100px) {
+    width: 240px;
+    height: 250px;
+  }
+}
+
+.form-control {
+  @media (min-width: 991px) {
+    height: 110px !important;
+  }
+}
+.back_nav {
+  background-color: #e8e8e8;
+  height: 70px;
+  @media (max-width: 991px) {
+    height: 65px;
+  }
+  @media (max-width: 767px) {
+    height: 57px;
+  }
+}
+.ProfCou_name {
+  font-size: 18px;
+  font-weight: bold;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 13px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 15px;
+  }
+}
+.content_txt {
+  font-size: 17px;
+  color: #666666;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 14px;
+  }
+}
+.Description_txt {
+  font-size: 15px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #666666;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.info_div {
+  margin-top: 47px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    margin-top: 17px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    margin-top: 19px;
+  }
+}
+.description_row {
+  margin: 30px 135px !important;
+  @media (min-width: 990px) and(max-width: 1200px) {
+    margin: 30px 23px !important;
+  }
+  @media (min-width: 1201px) and(max-width: 1300px) {
+    margin: 30px 35px !important;
+  }
+  @media (min-width: 1301px) and(max-width: 1400px) {
+    margin: 30px 50px !important;
+  }
+  @media (min-width: 1401px) and(max-width: 1500px) {
+    margin: 30px 80px !important;
+  }
+  @media (min-width: 1401px) and(max-width: 1500px) {
+    margin: 30px 70px !important;
+  }
+  @media (min-width: 1501px) and(max-width: 1600px) {
+    margin: 30px 115px !important;
+  }
+}
+.description_input {
+  height: 150px;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+}
+.button_row {
+  margin: 0px 165px;
+  @media (min-width: 990px) and(max-width: 1200px) {
+    margin: 0px 10px;
+  }
+  @media (min-width: 1201px) and(max-width: 1300px) {
+    margin: 0px 23px;
+  }
+  @media (min-width: 1301px) and(max-width: 1400px) {
+    margin: 0px 53px;
+  }
+  @media (min-width: 1401px) and(max-width: 1500px) {
+    margin: 0px 13px !important;
+  }
+  @media (min-width: 1401px) and(max-width: 1500px) {
+    margin: 0px 74px !important;
+  }
+  @media (min-width: 1501px) and(max-width: 1600px) {
+    margin: 0px 73px !important;
+  }
+}
+.enterbutton2 {
+  margin-top: 27px;
+  text-decoration: none;
+  text-align: center;
+  width: 45%;
+  font-size: 18px;
+  height: 58px;
+  color: $white;
+  background-color: #878787;
+  border-radius: 4px;
+  align-items: center;
+
+  &.enterbutton2:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+  @media (min-width: 993px) and (max-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.enterbutton3 {
+  margin-top: 27px;
+  text-decoration: none;
+  text-align: center;
+  width: 45%;
+  font-size: 12px;
+  height: 40px;
+  color: $white;
+  background-color: #878787;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 14px;
+  }
+  &.enterbutton3:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+}
+.reason_input {
+  height: 60px;
+  border: #90909090 solid 1px;
+  border-right: none;
+  margin-top: 27px;
+  width: 80%;
+}
+.reason_input2 {
+  height: 41px;
+  border: #95959595 solid 2px;
+  border-right: none;
+  width: 100%;
+  margin-top: 26px;
+}
+.download_button {
+  margin-top: 27px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  height: 58px;
+  color: $white;
+  background-color: #52b630;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0px;
+
+  &.download_button:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 15px;
+    height: 48px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 17px;
+    height: 48px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 19px;
+  }
+}
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: $inputs;
+  font-size: 12px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 14px;
+  }
+  @media (min-width: 992px) {
+    font-size: 17px;
+  }
+  @media (min-width: 993px) and (max-width: 1200px) {
+    font-size: 13px;
+  }
+}

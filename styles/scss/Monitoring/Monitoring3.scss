@@ -1,0 +1,224 @@
+@import "./../base";
+body {
+  padding-bottom: 25px;
+  background-color: #f2f2f2f2;
+}
+.margin-top-main {
+  height: 200px;
+}
+.pritn-btn {
+  font-size: 6px;
+  background-color: #b1b1b140;
+  border: 1px solid #c0bdbd;
+  width: 100px;
+  color: #5d5d5d;
+}
+.set-tab-style {
+  background-color: #e0e0e0;
+  color: #afafaf !important;
+  // border-bottom-left-radius: 15px;
+  border-top-left-radius: 0px;
+}
+
+.list-shops-text {
+  font-size: 13px;
+  @media (min-width: 320px) and (max-width: 350px) {
+    font-size: 8px;
+  }
+  @media (min-width: 351px) and (max-width: 400px) {
+    font-size: 9px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 12px;
+  }
+  @media (min-width: 768px) and (max-width: 1055px) {
+    font-size: 14px;
+  }
+  @media (min-width: 1201px) {
+    font-size: 15px;
+  }
+}
+.list-news-text {
+  font-size: 17px;
+  @media (min-width: 320px) and (max-width: 350px) {
+    font-size: 8px;
+  }
+  @media (min-width: 351px) and (max-width: 400px) {
+    font-size: 9px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 12px;
+  }
+  @media (min-width: 768px) and (max-width: 1055px) {
+    font-size: 15px;
+  }
+  @media (min-width: 1201px) {
+    font-size: 18px;
+  }
+}
+
+.content_txt {
+  color: #696969;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.list-shops-color {
+  color: #3b3b3bb8;
+  border: none;
+}
+.list-shops-nb {
+  width: auto;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+}
+
+.box-shadow {
+  border-top-right-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.border-top-right-radius {
+  border-top-right-radius: 15px;
+}
+.list-shops {
+  width: 100%;
+  min-width: 99%;
+  border: 1px solid #e4e4e4;
+  border-top: none;
+  border-radius: 1px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list-shops-bgc {
+  background-color: #e5f6e1;
+}
+.notification-bar {
+  border: 1px solid #e4e4e4;
+  border-radius: 1px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table-bordered {
+  td {
+    border: none;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  th {
+    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  thead {
+    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  tbody {
+    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  border: none;
+  border-top: none;
+  border-bottom: none;
+}
+.shops-capacity {
+  background-color: #363535be;
+}
+.font-set-shops-menu {
+  font-size: 7px;
+}
+
+.border-shops-option {
+  border-right: 8px solid #6dc703;
+}
+.fixed-margin-shop-menus {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 15%;
+}
+
+.font-set-name-site {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.len-pakage {
+  padding-top: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+  .font-set-shops-menu {
+    font-size: 10px;
+  }
+  .len-pakage {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    border-radius: 2px;
+  }
+}
+
+@media (min-width: 576px) {
+  .font-set-shops-menu {
+    font-size: 12px;
+  }
+  .pritn-btn {
+    font-size: 8px;
+  }
+  .len-pakage {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    border-radius: 2px;
+  }
+}
+
+@media (min-width: 739px) {
+  .font-set-shops-menu {
+    font-size: 13px;
+  }
+  .pritn-btn {
+    font-size: 10px;
+  }
+  .len-pakage {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .font-set-shops-menu {
+    font-size: 17px;
+  }
+  .pritn-btn {
+    font-size: 22px;
+    width: 120px;
+  }
+  .len-pakage {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-shops {
+    width: 100%;
+  }
+
+  .font-set-shops-menu {
+    font-size: 15px;
+  }
+  .pritn-btn {
+    font-size: 16px;
+  }
+
+  .fixed-margin-shop-menus {
+    margin-right: 20%;
+    width: 70%;
+  }
+  .len-pakage {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

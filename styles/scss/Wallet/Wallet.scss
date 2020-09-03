@@ -1,0 +1,264 @@
+@import "./../base";
+
+.preview4 {
+  width: 25%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @media (min-width: 992px) {
+    height: 130px;
+  }
+}
+.preview5 {
+  width: 25%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @media (min-width: 992px) {
+    height: 130px;
+  }
+}
+#upload1 {
+  display: none;
+  top: 1%;
+}
+#upload2 {
+  display: none;
+  top: 1%;
+}
+.inputs_section {
+  min-height: 40%;
+}
+
+.inputs_div {
+  background-color: $white;
+  height: 410px;
+  @media (max-width: 360px) {
+    height: 400px;
+  }
+  box-shadow: 1px 1px 1px 1px $border;
+  border: $border 1px solid;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 23px;
+  border-radius: 5px;
+}
+input {
+  /* background-color: transparent; */
+  border: none !important;
+  width: 210px;
+  @media (min-width: 768px) {
+    width: 300px;
+  }
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: $inputs;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: $inputs;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: $inputs;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $inputs;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $inputs;
+}
+
+::placeholder {
+  color: $inputs;
+  font-size: 14px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 10px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 13px;
+  }
+  @media (min-width: 992px) and(max-width: 1200px) {
+    font-size: 12px;
+  }
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.inputs_div {
+  border: 2px #c9c9c9c9 solid !important;
+  height: 50px;
+}
+.title_div {
+  border-left: 1px #c9c9c9c9 solid !important;
+  background-color: #f5f5f5;
+  width: 40%;
+}
+.content_div {
+  width: 60%;
+}
+.input-group {
+  border: 1px $inputs solid;
+  padding: 10px;
+  height: 60px;
+  @media (max-width: 390px) {
+    padding: 0px;
+  }
+}
+.content_txt {
+  font-size: 15px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+.enterbutton2 {
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  font-size: 19px;
+  height: 52px;
+  color: $white;
+  background-color: $seller_color;
+  border-radius: 4px;
+  align-items: center;
+
+  &.enterbutton2:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 95%;
+    font-size: 19px;
+  }
+}
+
+.user_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.user_name {
+  font-size: 15px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 14px;
+  }
+}
+.phonenumber {
+  font-size: 13px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 11px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 11px;
+  }
+}
+.menu_title {
+  font-size: 13px;
+}
+.enterbutton3 {
+  margin-top: 15px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  height: 52px;
+  color: $white;
+  background-color: #35afc8;
+  border-radius: 4px;
+  align-items: center;
+
+  &.enterbutton3:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 95%;
+    font-size: 19px;
+  }
+}
+.row {
+  margin-left: 0px;
+  @media (max-width: 991px) {
+    margin-right: 0px;
+  }
+}
+.drawer {
+  width: 230px !important;
+  @media (min-width: 992px) {
+    width: 260px !important;
+  }
+}
+
+.promotebutton {
+  margin-top: 15px;
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  font-size: 16px;
+  height: 52px;
+  color: $white;
+  background-color: #35afc8;
+  border-radius: 4px;
+  padding: 0px;
+  align-items: center;
+
+  &.promotebutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+}
+.phoneNumberPass_txt {
+  font-size: 17px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 16px;
+  }
+}
+.width-lg-sm-set-btn {
+  width: 50% !important;
+  @media (min-width: 320px) and (max-width: 400px) {
+    width: 100% !important;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    width: 70% !important;
+  }
+}
+.width-lg-sm-set {
+  width: 50% !important;
+  @media (min-width: 320px) and (max-width: 400px) {
+    width: 100% !important;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    width: 70% !important;
+  }
+}

@@ -1,0 +1,145 @@
+body {
+  background-color: #aaaaaa45;
+  padding-bottom: 45px;
+}
+
+.margin-top-main {
+  height: 120px;
+}
+
+@media (min-width: 992px) {
+  .margin-top-main {
+    height: 190px;
+  }
+}
+
+.set-text-color {
+  color: #080808a8;
+}
+
+.btns {
+  background-color: #db1a1a;
+  border-radius: 1px;
+  width: 203px;
+  font-size: 19px;
+}
+
+@media (max-width: 1200px) {
+  .btns {
+    font-size: 15px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .btns {
+    font-size: 14px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 766px) {
+  .btns {
+    font-size: 11px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 700px) {
+  .btns {
+    font-size: 10px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 453px) {
+  .btns {
+    font-size: 9px;
+    width: 90px;
+  }
+}
+
+.width-main {
+  width: 75%;
+}
+
+@media (max-width: 992px) {
+  .width-main {
+    width: 85%;
+  }
+}
+
+@media (max-width: 453px) {
+  .width-main {
+    width: 100%;
+  }
+}
+
+.font-size-res {
+  font-size: 20px;
+}
+
+@media (max-width: 1280px) {
+  .font-size-res {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 992px) {
+  .font-size-res {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-size-res {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .font-size-res {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 400px) {
+  .font-size-res {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+  .font-size-res {
+    font-size: 10px;
+  }
+}
+
+.set-size-img {
+  width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .set-size-img {
+    width: 188px;
+  }
+}
+
+@media (max-width: 992px) {
+  .set-size-img {
+    width: 163px;
+  }
+}
+
+@media (max-width: 766px) {
+  .set-size-img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 453px) {
+  .set-size-img {
+    width: 90px;
+  }
+}
+/*# sourceMappingURL=ProductApproval.css.map */

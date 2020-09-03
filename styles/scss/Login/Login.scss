@@ -1,0 +1,131 @@
+@import "./../base";
+
+.help_div {
+  height: 300px !important;
+  @media (max-width: 767px) {
+    height: 200px !important;
+  }
+}
+.phoneNumberPass_txt {
+  font-size: 17px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 16px;
+  }
+}
+.phonePass_div {
+  border-left: 1px #c9c9c9c9 solid !important;
+}
+.enterbutton2 {
+  margin-top: 50px;
+  text-decoration: none;
+  text-align: center;
+  width: 95%;
+  height: 100px;
+  font-size: 23px;
+  height: 58px;
+  color: $white;
+  background-color: $seller_color;
+  border-radius: 4px;
+  align-items: center;
+
+  &.enterbutton2:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 95%;
+    font-size: 19px;
+  }
+}
+
+.inputs_section {
+  min-height: 40%;
+}
+
+.inputs_div {
+  background-color: $white;
+  height: 410px;
+  @media (max-width: 360px) {
+    height: 400px;
+  }
+  box-shadow: 1px 1px 1px 1px $border;
+  border: $border 1px solid;
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 23px;
+  border-radius: 5px;
+}
+input {
+  /* background-color: transparent; */
+  border: none !important;
+  width: 210px;
+  @media (min-width: 768px) {
+    width: 300px;
+  }
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: $inputs;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: $inputs;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: $inputs;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $inputs;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $inputs;
+}
+
+::placeholder {
+  color: $inputs;
+  font-size: 14px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 10px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 13px;
+  }
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.input-group {
+  border: 1px $inputs solid;
+  padding: 10px;
+  height: 60px;
+  @media (max-width: 390px) {
+    padding: 0px;
+  }
+}
+.forgot_pass {
+  color: $green;
+  font-size: 14px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 13px;
+  }
+}

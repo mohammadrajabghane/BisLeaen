@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("../../font/IranianSans.ttf");
+}
+
+body,
+html {
+  font-family: "MyFont";
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 99999999s ease-in-out 0s;
+  transition: background-color 99999999s ease-in-out 0s;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar {
+  border-bottom: 2px solid #f5f5f5;
+  height: 70px;
+}
+
+.nav-item {
+  margin-right: 65px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .nav-item {
+    font-size: 10px;
+    margin-right: 2px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .nav-item {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+}
+
+.User_img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .User_img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .User_img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar-nav {
+  background-color: #515652;
+  width: 800px !important;
+  border-radius: 20px;
+  height: 55px;
+}
+
+.nav-item {
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 0px !important;
+}
+
+.inputs_row {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (min-width: 991px) {
+  .inputs_row {
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+.state_row {
+  border: solid #dcdcdcdc 1px;
+  border-right: 12px solid #54b62f;
+  -webkit-box-shadow: 5px 5px 9px 13px #eaeaea;
+          box-shadow: 5px 5px 9px 13px #eaeaea;
+  margin: 0px 60px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .state_row {
+    margin: 0px 10px;
+    border-right: 7px solid #54b62f;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .state_row {
+    margin: 0px 10px;
+    border-right: 7px solid #54b62f;
+  }
+}
+
+.status_div {
+  background-color: #e24212;
+  height: 35px;
+  width: 135px;
+  border-radius: 3px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .status_div {
+    height: 25px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .status_div {
+    height: 35px;
+    width: 105px;
+  }
+}
+
+.ProfCou_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .ProfCou_name {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .ProfCou_name {
+    font-size: 13px;
+  }
+}
+
+.content_txt {
+  font-size: 18px;
+  font-weight: bold;
+  color: #999999;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .content_txt {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .content_txt {
+    font-size: 13px;
+  }
+}
+
+.status_txt {
+  font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .status_txt {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .status_txt {
+    font-size: 11px;
+  }
+}
+
+.user_img {
+  width: 180px;
+  height: 175px;
+  border-radius: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .user_img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .user_img {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+.line {
+  width: 100%;
+  margin-top: 40px !important;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .line {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .line {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=checking.css.map */

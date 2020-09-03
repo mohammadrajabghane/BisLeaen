@@ -1,0 +1,122 @@
+@import "./../base";
+body {
+  background-color: #f2f2f2f2;
+}
+.help_div {
+  height: 330px !important;
+  @media (max-width: 767px) {
+    height: 200px !important;
+  }
+}
+.phoneNumberPass_txt {
+  color: #5a5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 15px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 16px;
+  }
+}
+.phonePass_div {
+  border-left: 1px #c9c9c9c9 solid !important;
+}
+.enterbutton2 {
+  margin-top: 40px;
+  text-decoration: none;
+  text-align: center;
+  width: 95%;
+  height: 100px;
+  font-size: 23px;
+  height: 58px;
+  color: $white;
+  background-color: #52b630;
+  border-radius: 4px;
+  align-items: center;
+
+  &.enterbutton2:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 95%;
+    font-size: 19px;
+  }
+}
+
+.inputs_section {
+  min-height: 40%;
+}
+
+input {
+  /* background-color: transparent; */
+  border: none !important;
+  width: 210px;
+  @media (min-width: 768px) {
+    width: 300px;
+  }
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: $inputs;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: $inputs;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: $inputs;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $inputs;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $inputs;
+}
+
+::placeholder {
+  color: #dcdcdcdc;
+  font-size: 19px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 15px;
+  }
+}
+.input-group1 {
+  box-shadow: 0 5px 5px 0 #dededede;
+  border: 2px #a6a6a6a6 solid !important;
+  height: 60px;
+  @media (max-width: 767px) {
+    height: 55px;
+  }
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.forgot_pass {
+  color: #9e9e9e;
+  font-weight: bold;
+  font-size: 16px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 13px;
+  }
+}

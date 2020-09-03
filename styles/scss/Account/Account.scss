@@ -1,0 +1,121 @@
+@import "./../base";
+body {
+  background-color: #f2f2f2;
+}
+.main_content {
+  width: 90%;
+  @media (min-width: 768px) {
+    width: 75%;
+  }
+}
+.nav-item {
+  margin-right: 0px !important;
+  @media (max-width: 1400px) {
+    margin-right: 0px !important;
+  }
+  @media (max-width: 1200px) {
+    margin-right: 0px !important;
+  }
+}
+.margin-top-main {
+  height: 120px;
+  @media (min-width: 992px) {
+    height: 190px;
+  }
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none !important;
+  border: none !important;
+}
+input {
+  outline: none;
+  border: none !important;
+  box-shadow: none !important;
+}
+::placeholder {
+  color: $inputs !important;
+  font-size: 19px;
+  @media (min-width: 320px) and (max-width: 400px) {
+    font-size: 12px;
+  }
+  @media (min-width: 401px) and(max-width: 767px) {
+    font-size: 14px;
+  }
+}
+.form-fixed {
+  height: 60px;
+  border: $inputs 1px solid !important;
+  font-size: 19px;
+  @media (max-width: 1200px) {
+    font-size: 28px;
+    height: 50px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 16px;
+    height: 45px;
+  }
+
+  @media (max-width: 453px) {
+    font-size: 13px;
+  }
+}
+
+.profile-img {
+  border: 2px solid #c4c1c1;
+  border-radius: 4px;
+  width: 260px;
+
+  @media (max-width: 1200px) {
+    width: 240px;
+  }
+
+  @media (max-width: 992px) {
+    width: 190px;
+  }
+
+  @media (max-width: 453px) {
+    width: 155px;
+  }
+  @media (max-width: 400px) {
+    width: 125px;
+  }
+}
+
+.btns {
+  border-radius: 2px;
+  background-color: #3ac02c;
+  height: 50px;
+  font-size: 20px;
+  padding: 0px;
+
+  @media (max-width: 1200px) {
+    height: 40px;
+    font-size: 18px;
+  }
+
+  @media (max-width: 992px) {
+    height: 45px;
+    width: 55px;
+    font-size: 15px;
+  }
+
+  @media (max-width: 500px) {
+    height: 35px;
+    width: 43px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 453px) {
+    height: 30px;
+    width: 40px;
+    font-size: 13px;
+  }
+  @media (max-width: 400px) {
+    height: 35px;
+    width: 40px;
+    font-size: 12px;
+  }
+}
