@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <!-- meta tage for language support -->
+    <meta charset="UTF-8">
+    <!-- meta tage for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- import my style css -->
+    <link rel="stylesheet" href="styles/css/Monitoring6.css">
+    <link rel="stylesheet" href="styles/css/Navbar.css">
+    <!-- this is the title -->
+    <title>Monitoring 6</title>
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="text-light p-0 m-lg-0 fixed-top bgc-nav w-100">
+        <!-- navbar and site name -->
+        <div class="d-flex justify-content-around mx-auto bgc-nav pt-2 pb-3  float-lg-left col-lg-10 col-12">
+            <div class="mt-lg-3 mb-lg-2 w-100 flex-row-reverse d-lg-none">
+                <!-- write the site name  -->
+                <span class="">
+                    <strong class="float-left d-block" id="name-site">monitoring</strong>
+                </span>
+                <!-- end write the site name -->
+
+                <!-- start menu -->
+                <span class="m-2 d-lg-none">
+                    <img class="float-right nav-sm-icon pt-1" src="./image/nav-icon.png" alt="icon" data-toggle="drawer"
+                        data-target="#drawer-1">
+                </span>
+                <!-- end menu -->
+            </div>
+
+            <div class="d-none d-lg-inline w-100 mr-5 ml-5    ">
+                <!-- start large menu -->
+                <nav class="d-none navbar-expand navbar-light d-flex justify-content-center mb-3 mt-3 w-100"
+                    style="overflow: hidden !important;">
+                    <ul class="navbar-nav d-none d-lg-flex nav-fixed p-1 w-100 justify-content-between ">
+                        <li class="nav-item d-flex align-items-center justify-self-start">
+                            <a class="nav-link text-white text-center A3 text-nowrap" href="#"> حساب من</a>
+                        </li>
+                        <li class="nav-item  d-flex align-items-center">
+                            <a class="nav-link text-white text-center A3 text-nowrap" href="#"> تائید استاد</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link pr-3 pl-3 text-white text-center A3 text-nowrap" href="#">تعریف
+                                سمینار</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link text-white text-center A3 text-nowrap" href="#">تائید کالا</a>
+                        </li>
+                        <li class=" ml-0 d-flex align-items-center" id="a1">
+                            <a class="nav-link text-white mx-auto text-white text-center  font-weight-bold  A3 text-nowrap font-set-name-site"
+                                href="#"> Monitoring</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- aside bar for large sizes and tab bar for small sizes -->
+        <div
+            class="bgc-nav float-lg-right justify-content-around col-lg-2 no-gutters p-0 position-fixed fixed-lg-height w-100 pt-4 pt-lg-0">
+            <!-- aside bar and tab bar -->
+            <div class="h-100 d-flex flex-row flex-lg-column mw-25">
+                <!-- this logo / is  not displayed in small sizes  -->
+                <a href="#" class="main-tab w-100 d-none d-lg-inline bgc-lg-icon border-none">
+                    <!-- this logo text -->
+                    <div>
+                        <img src="./image/logo.jpg" class="img-logo border-none  main-tab w-100" alt="icon">
+                    </div>
+                </a>
+
+
+                <!-- start the main icon -->
+
+                <!-- the first icon is the shops icon -->
+                <a href="#" class="main-tab border-none w-100 ">
+                    <figure class="m-lg-4 pb-2">
+                        <!-- icon -->
+                        <img class="nav-tab-img pt-3 pb-1" src="./image/رویداد.png" alt="icon">
+                        <!-- icon description -->
+                        <figcaption class="text-center  img-caption-page">رویداد</figcaption>
+                    </figure>
+                </a>
+                <!-- the first icon is the shop icon -->
+                <a href="#" class="main-tab w-100 ">
+                    <figure class="m-lg-4 pb-2">
+                        <!-- icon -->
+                        <img class="pt-3 pb-1 change-size-img" src="./image/آموزش.png" alt="icon">
+                        <!-- icon description -->
+                        <figcaption class="text-center  img-caption-page ">آموزش</figcaption>
+                    </figure>
+                </a>
+                <!-- the first icon is the shop icon -->
+                <a href="#" class="main-tab w-100 tab-page">
+                    <figure class="m-lg-4 pb-2">
+                        <!-- icon -->
+                        <img class="nav-tab-img pt-3 pb-1 nav-tab-img-page" src="./image/فروشگاه.png" alt="icon">
+                        <!-- icon description -->
+                        <figcaption class="text-center img-caption-page">فروشگاه</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <!-- end aside bar and tab bar  -->
+        </div>
+        <!-- end aside bar for large sizes and tab bar for small sizes -->
+    </header>
+    <!-- end header -->
+
+
+    <!-- margin top (menu > main content) -->
+    <div class="margin-top-main-menu"></div>
+    <!-- end margin top (menu > main content) -->
+
+    <!-- main content -->
+    <main>
+
+        <!-- events list -->
+        <div class="fixed-margin-event-menus">
+            <!-- margin left and right (events list > aside bar) -->
+
+            <!-- end margin left and right (events list > aside bar) -->
+
+            <!-- start events menu -->
+            <div class="flex-grow-1  mb-0 ml-1">
+                <!-- print option and title -->
+                <div class="p-2 list-events mb-0 border-events-option">
+                    <table class="table table-bordered list-events-color mb-0 ">
+                        <!-- titles main menu -->
+                        <thead>
+                            <tr class="border-bottom">
+                                <th style="border-bottom: none;"
+                                    class="text-right text-dark pr-0 ml-0 mr-0 list-news-text pr-3 pt-3 pb-4 text-nowrap">
+                                    تعداد کل رویداد ها : <span class="content_txt">106</span>
+                                </th>
+                                <th style="border-bottom: none;"
+                                    class="text-right text-dark pr-0 ml-0 mr-0 list-news-text pr-3 pt-3 pb-4 text-nowrap">
+                                    تعداد افراد ثبت نام کرده : <span class="content_txt">106</span>
+
+                                </th>
+                            </tr>
+                            <tr class="">
+                                <th style="border-bottom: none;"
+                                    class="text-right text-dark pr-0 ml-0 mr-0 list-news-text pr-3 pt-3 pb-4 text-nowrap">
+                                    تعداد افراد ثبت نام کرده : <span class="content_txt">106</span>
+                                </th>
+                                <th style="border-bottom: none;"
+                                    class="text-right text-dark pr-0 ml-0 mr-0 list-news-text pr-3 pt-3 pb-4 text-nowrap">
+                                    تعداد افراد ثبت نام کرده : <span class="content_txt">106</span>
+                                </th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+
+        <br>
+        <br>
+
+        <!-- events list -->
+        <div class="fixed-margin-event-menus">
+            <!-- margin left and right (events list > aside bar) -->
+            <!-- end margin left and right (events list > aside bar) -->
+
+            <!-- start events menu -->
+            <div class="">
+                <!-- print option and title -->
+                <div>
+                    <!-- events title -->
+                    <span class="float-right mt-2 list-events-text mb-0">
+                        <b>
+                            لیست رویداد ها :
+                        </b>
+                    </span>
+                    <!-- end events title -->
+
+                    <!-- print option -->
+                    <button class="btn mb-2 pritn-btn">پرینت</button>
+                    <!-- end print option -->
+                </div>
+                <!-- end print option and title -->
+
+                <!-- start main events menu -->
+                <div class="p-2 list-events">
+                    <table class="table table-bordered list-events-color">
+                        <!-- titles main menu -->
+                        <thead class="">
+                            <tr class="">
+                                <th style="border-bottom: none; "
+                                    class="  text-center border-left text-dark align-middle list-events-text ">نام
+                                </th>
+                                <th style="border-bottom: none; "
+                                    class=" text-center border-left text-dark align-middle list-events-text ">زمان
+                                </th>
+                                <th style="border-bottom: none; "
+                                    class=" text-center border-left text-dark align-middle list-events-text ">قیمت
+                                </th>
+                                <th style="border-bottom: none; "
+                                    class=" text-center text-dark align-middle list-events-text ">ظرفیت / تعداد
+                                    افراد ثبت نام کرده</th>
+                            </tr>
+                        </thead>
+                        <!-- end titles main menu -->
+
+                        <!-- data main menu -->
+                        <tbody class="p-5">
+                            <!-- data 1 -->
+                            <tr class="list-events-bgc">
+                                <td class="text-center border-left font-set-events-menu">استارتاپ خوشه کرمان</td>
+                                <td class="text-center border-left font-set-events-menu">99/5/27</td>
+                                <td class="text-center border-left font-set-events-menu">صد هزار تومن</td>
+                                <td class="text-center font-set-events-menu"><b
+                                        class="badge events-capacity p-1 pr-3 pl-3 text-white font-set-events-menu font-weight-normal"
+                                        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  border-radius: 2px;">50/25</b>
+                                </td>
+
+                            </tr>
+                            <!-- end data 1 -->
+
+                            <!-- data 2 -->
+                            <tr class=" font-set-events-menu">
+                                <td class="text-center border-left font-set-events-menu">استارتاپ خوشه کرمان</td>
+                                <td class="text-center border-left font-set-events-menu">99/5/27</td>
+                                <td class="text-center border-left font-set-events-menu">صد هزار تومن</td>
+                                <td class="text-center font-set-events-menu"><b
+                                        class="badge events-capacity p-1 text-white font-set-events-menu font-weight-normal p-1 pr-3 pl-3"
+                                        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  border-radius: 2px;">50/25</b>
+                                </td>
+
+                            </tr>
+                            <!-- end data 2 -->
+
+                            <!-- data 3 -->
+                            <tr class="list-events-bgc font-set-events-menu">
+                                <td class="text-center border-left font-set-events-menu">استارتاپ خوشه کرمان</td>
+                                <td class="text-center border-left font-set-events-menu">99/5/27</td>
+                                <td class="text-center border-left font-set-events-menu">صد هزار تومن</td>
+                                <td class="text-center font-set-events-menu"><b
+                                        class="badge events-capacity p-1 pr-3 pl-3 text-white font-set-events-menu font-weight-normal"
+                                        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  border-radius: 2px;">50/25</b>
+                                </td>
+                            </tr>
+                            <!-- end data 3 -->
+
+                            <!-- data 4 -->
+                            <tr class=" font-set-events-menu">
+                                <td class="text-center border-left font-set-events-menu">استارتاپ خوشه کرمان</td>
+                                <td class="text-center border-left font-set-events-menu">99/5/27</td>
+                                <td class="text-center border-left font-set-events-menu">صد هزار تومن</td>
+                                <td class="text-center font-set-events-menu"><b
+                                        class="badge events-capacity p-1 pr-3 pl-3 text-white font-set-events-menu font-weight-normal"
+                                        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  border-radius: 2px;">50/25</b>
+                                </td>
+                            </tr>
+                            <!-- end data 4 -->
+
+                        </tbody>
+                        <!-- data main menu -->
+                    </table>
+                </div>
+                <!-- end start main events menu -->
+            </div>
+            <!-- end events menu -->
+
+            <!-- end margin left and right (events list > aside bar) -->
+        </div>
+        <!-- end events list -->
+    </main>
+    <!-- end main content -->
+
+    <!-- Drawer -->
+    <div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title"
+        aria-hidden="true" id="drawer-1" style="border: none !important; width:260px;">
+        <div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+            <div class="drawer-header" style="background-color: #52b632;">
+                <img src="./image/bill2.jpeg" alt="logo" class="profile_img img-fluid rounded-circle mr-2 mt-2">
+                <h6 class="user-name text-white m-0 mt-3 mr-2 text-nowrap text-right"> نام و نام خانوادگی </h6>
+
+            </div>
+            <div class="drawer-body text-center mt-2 m-0 p-0">
+                <div class="d-flex justify-content-start mt-2 pr-3 align-items-center" id="div_icon"
+                    onmouseover="hovermyaccount();" onmouseout="unhovermyaccount();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/user2.png" alt="home_icon" class="img-icon img-fluid" id="my-account_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">حساب من</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hovercheck();" onmouseout="unhovercheck();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/check (1).png" alt="cart_icon" class=" img-icon img-fluid" id="check_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تائید استاد </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4 " id="div_icon"
+                    onmouseover="hoverspeech();" onmouseout="unhoverspeech();">
+                    <a href=" #" class="  mt-1 text-decoration-none">
+                        <img src="./image/speech.png" alt="list_icon" class="img-icon img-fluid" id="speech_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تعریف سمینار</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start  align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverbox();" onmouseout="unhoverbox();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/box.png" alt="news_icon" class="img-icon img-fluid" id="box_icon">
+                        <h5 class="icon_txt d-inline  mr-2 text-nowrap"> تائید کالا </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverwriting();" onmouseout="unhoverwriting();">
+                    <a href="#" class="  mt-1 text-decoration-none">
+                        <img src="./image/writing.png" alt="pack_icon" class="img-icon img-fluid" id="writing_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">monitoring</h5>
+                    </a>
+                </div>
+                <hr class="mx-auto mt-4" style="width:100%;text-align:left;margin-left:0;background-color: #c9c9c9c9;">
+                <div class="d-flex justify-content-start align-items-center pr-3" id="div_icon"
+                    onmouseover="hoverlogout();" onmouseout="unhoverlogout();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/logout.png" alt="pack_icon" class="img-icon img-fluid" id="logout_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">خروج از حساب کاربری</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Drawer -->
+
+    <!-- change icon when hover -->
+    <script src="./dist/js/Change_Icon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap-drawer.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // drawer
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        // end drawer
+    </script>
+</body>
+
+</html>

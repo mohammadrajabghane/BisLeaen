@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <nav class="navbar navbar-expand pr-0 pl-0 pr-md-5 pl-md-5 navbar-light bg-white">
+            <a class="navbar-brand" href="#">Logo</a>
+
+            <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap " href="#">خانه <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">دوره آموزشی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">رویداد</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">فروشگاه</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="nav-link" href="#">
+                <img src="./image/user.png" alt="icon" class="User_img">
+            </a>
+        </nav>
+
+    </header>
+    <!-- end nav -->
+
+
+    <div class="help_div d-flex justify-content-center align-items-center">
+        <h3>
+            LOGO
+        </h3>
+    </div>
+    <section>
+        <div class="inputs_section row d-flex mx-auto  justify-content-center">
+            <div class="col-12 col-md-7 col-lg-6 col-xl-4 pt-4">
+
+                <!-- phone number -->
+                <div class="col-12 d-flex rounded">
+                    <div class="w-100 d-flex col-12 p-0" style="border: 2px #c9c9c9c9 solid !important; height: 50px;">
+                        <div class="w-50 phonePass_div d-flex pt-2 justify-content-center align-items-center"
+                            style="background-color: #f5f5f5;">
+                            <h5 class=" text-center phoneNumberPass_txt text-secondary w-100">شماره موبایل </h5>
+                        </div>
+                        <div class="w-50 bg-white text-center rounded">
+                            <input type="tel" class="h-100 w-100  text-center"
+                                placeholder="شماره موبایل را وارد نمایید" />
+                        </div>
+                    </div>
+                </div>
+                <!-- end  phone number -->
+
+                <!-- password -->
+                <div class="col-12 d-flex rounded mt-5">
+                    <div class="w-100 d-flex col-12 p-0" style="border: 2px #c9c9c9c9 solid !important; height: 50px;">
+                        <div class="w-50 phonePass_div d-flex pt-2 justify-content-center align-items-center"
+                            style="background-color: #f5f5f5;"">
+                            <h5 class=" text-center phoneNumberPass_txt text-secondary w-100">رمز عبور </h5>
+                        </div>
+                        <div class="w-50 bg-white text-center rounded">
+                            <input type="password" class="h-100 w-100  text-center"
+                                placeholder="رمز عبور را وارد نمایید" />
+                        </div>
+                    </div>
+                </div>
+                <!-- end  password -->
+
+                <!-- forgot password -->
+                <a href="# " class="text-decoration-none">
+                    <h6 class="forgot_pass mt-3" style="margin-left: 17px;">فراموشی رمز عبور</h6>
+                </a>
+                <!-- end forgot pasword -->
+
+                <!-- enter button -->
+                <button class="enterbutton2 btn btn-block mx-auto" type="submit">
+                    ورود</button>
+                <!-- end enter button -->
+
+                <!-- register-->
+                <a href="# " class="text-decoration-none text-center">
+                    <h6 class="forgot_pass mt-3"> ثبت نام نکرده ام؟</h6>
+                </a>
+                <!-- end register-->
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

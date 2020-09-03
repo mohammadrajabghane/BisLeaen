@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <!-- meta tage for language support -->
+    <meta charset="UTF-8">
+    <!-- meta tage for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- import my style css -->
+    <link rel="stylesheet" href="./styles/css/Monitoring2.css">
+    <link rel="stylesheet" href="styles/css/Navbar.css">
+    <title>Seminar 3</title>
+
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="text-light p-0 m-lg-0 fixed-top bgc-nav w-100">
+        <!-- navbar and site name -->
+        <div class="d-flex justify-content-around bgc-nav pt-2 pb-3  float-lg-left col-lg-10 col-12">
+            <div class="mt-lg-3 mb-lg-2 w-100 flex-row-reverse d-lg-none">
+                <!-- write the site name  -->
+                <span class="">
+                    <strong class="float-left d-block" id="name-site">تعریف استاد</strong>
+                </span>
+                <!-- end write the site name -->
+
+                <!-- start menu -->
+                <span class="m-2 d-lg-none">
+                    <img class="float-right nav-sm-icon pt-1" src="./image/nav-icon.png" alt="icon" data-toggle="drawer"
+                        data-target="#drawer-1">
+                </span>
+                <!-- end menu -->
+            </div>
+
+            <div class="d-none d-lg-inline w-100 mr-5 ml-5 pl-4 pr-4">
+                <!-- start large menu -->
+                <nav class="d-none navbar-expand navbar-light d-flex justify-content-center mb-3 mt-3 w-100">
+                    <ul class="navbar-nav d-none d-lg-flex nav-fixed p-1 w-100 justify-content-between ">
+                        <li class="nav-item mr-5 d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> حساب من</a>
+                        </li>
+                        <li class="nav-item mr-5  d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> تائید استاد</a>
+                        </li>
+                        <li class="nav-item ml-0 d-flex align-items-center " id="a1">
+                            <a class="nav-link text-white text-nowrap mx-auto text-white text-center nav-link A3 text-nowrap font-set-name-site"
+                                href="#"> تعریف سمینار</a>
+                        </li>
+
+                        <li class="nav-item d-flex align-items-center justify-self-start">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#">
+                                تائید کالا</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center pl-5">
+                            <a class="nav-link pr-3 pl-3 text-white text-center nav-link A3 text-nowrap"
+                                href="#">Monitoring
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- aside bar for large sizes and tab bar for small sizes -->
+        <div
+            class="bgc-nav float-lg-right justify-content-around col-lg-2 no-gutters p-0 position-fixed fixed-lg-height w-100 pt-4 pt-lg-0">
+            <!-- aside bar and tab bar -->
+            <div class="h-100 d-flex flex-row flex-lg-column mw-25">
+                <!-- this logo / is  not displayed in small sizes  -->
+                <a href="#" class="main-tab w-100 d-none d-lg-inline bgc-lg-icon border-none">
+                    <!-- this logo text -->
+                    <div>
+                        <img src="image/logo.jpg" class="img-logo border-none  main-tab w-100" alt="logo">
+                    </div>
+                </a>
+
+
+                <!-- start the main icon -->
+
+                <!-- the first icon is the shops icon -->
+                <a href="#" class="main-tab border-none w-100">
+                    <figure class="mt-lg-5 mb-lg-5 pb-2">
+                        <figcaption class="text-center text-nowrap  img-caption-page ">تعریف سمینار </figcaption>
+                    </figure>
+                </a>
+                <!-- the first icon is the shop icon -->
+                <a href="#" class="main-tab w-100 ">
+                    <figure class="mt-lg-5 mb-lg-5 pb-2">
+                        <figcaption class="text-center text-nowrap img-caption-page ">برگزار کننده سمینار</figcaption>
+                    </figure>
+                </a>
+                <!-- the first icon is the shop icon -->
+                <a href="#" class="main-tab w-100  tab-page">
+                    <figure class="mt-lg-5 mb-lg-5  pb-2">
+                        <figcaption class="text-center text-nowrap img-caption-page">مکان برگزاری سمینار</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <!-- end aside bar and tab bar  -->
+        </div>
+        <!-- end aside bar for large sizes and tab bar for small sizes -->
+    </header>
+    <!--end  header start -->
+
+
+    <!-- margin top (menu > main content) -->
+    <div class="margin-top-main"></div>
+
+
+    <div class="fixed-margin-shop-menus d-flex flex-column">
+        <button id="loginLink" class="btn pt-3 pb-3 width-fixed-img-s text-white"><img src="image/PLUS2.png" width="20"
+                alt="plus img" class="pl-2">تعریف مکان برگزاری جدید</button>
+        <div class="row ">
+            <section class="card mt-5 m-2 w-set" style="border-radius: 20px;border: 2px solid #e0e0e0;">
+                <header>
+                    <img src="image/bill.jpg" class="w-100" alt="logo"
+                        style="border-radius: 20px; border-bottom-left-radius: 0;border-bottom-right-radius: 0;">
+                </header>
+                <footer class="card-footer">
+                    <p class="pt-4 pb-1 w-100 text-right text-nowrap font-weight-bold mb-2 font-set-s">مکان برگزاری
+                        سمینار</p>
+                    <a href="" class="font-weight-light font-set-e text-decoration-none"
+                        style="color: hsl(105.1, 57.6%, 45.3%) ;">ویرایش</a>
+                </footer>
+            </section>
+            <section class="card mt-5 mt-5 m-2 w-set" style="border-radius: 20px;border: 2px solid #e0e0e0;">
+                <header>
+                    <img src="image/bill.jpg" class="w-100" alt="logo"
+                        style="border-radius: 20px; border-bottom-left-radius: 0;border-bottom-right-radius: 0;">
+                </header>
+                <footer class="card-footer">
+                    <p class="pt-4 pb-1 w-100 text-right text-nowrap  font-weight-bold mb-2 font-set-s">مکان برگزاری
+                        سمینار</p>
+                    <a href="" class="font-weight-light font-set-e text-decoration-none"
+                        style="color: hsl(105.1, 57.6%, 45.3%) ;">ویرایش</a>
+                </footer>
+            </section>
+            <section class="card mt-5 mt-5 m-2 w-set" style="border-radius: 20px;border: 2px solid #e0e0e0;">
+                <header>
+                    <img src="image/bill.jpg" class="w-100" alt="logo"
+                        style="border-radius: 20px; border-bottom-left-radius: 0;border-bottom-right-radius: 0;">
+                </header>
+                <footer class="card-footer">
+                    <p class="pt-4 pb-1 w-100 text-right text-nowrap  font-weight-bold mb-2 font-set-s">مکان برگزاری
+                        سمینار</p>
+                    <a href="" class="font-weight-light font-set-e text-decoration-none"
+                        style="color: hsl(105.1, 57.6%, 45.3%) ;">ویرایش</a>
+                </footer>
+            </section>
+        </div>
+
+    </div>
+
+
+    <div id="loginPanel" class="popup width-popup-fixed bg-light w-25">
+        <div class="d-flex mt-4 mb-4 mr-3">
+            <p class="font-weight-bold">تعریف مکان برگزاری جدید</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex justify-content-center">
+                <label for="name-s" class="text-nowrap font-p">مکان برگزاری : </label>
+                <input type="text" class="form-control w-f-p mr-2 border h-50" name="name-s">
+            </div>
+            <div class="d-flex justify-content-center mt-4 mb-5 align-items-center">
+                <label for="name-s" class="text-nowrap font-p">انتخاب عکس : </label>
+                <div>
+                    <label class="label mr-2 p-1 w-f-p text-center pt-2 pb-2"
+                        style="border-radius: 5px; color: #303030;" for="upload-photo">انتخاب از گالری</label>
+                    <input type="file" name="photo" id="upload-photo" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mask">&nbsp;</div>
+
+    <!-- end main content -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#loginLink').click(function () {
+                $("#mask").fadeIn()
+
+                $("#mask").click(function () {
+                    $('.popup').fadeOut()
+                    $(this).fadeOut()
+                })
+
+                var w = $('body').width()
+                var h = $('body').height()
+                $("#loginPanel").fadeIn().css({ top: 300 })
+            })
+        })
+    </script>
+
+    <!-- Drawer -->
+    <div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title"
+        aria-hidden="true" id="drawer-1" style="border: none !important; width:260px;">
+        <div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+            <div class="drawer-header" style="background-color: #52b632;">
+                <img src="./image/bill2.jpeg" alt="logo" class="profile_img img-fluid rounded-circle mr-2 mt-2">
+                <h6 class="user-name text-white m-0 mt-3 mr-2 text-nowrap text-right"> نام و نام خانوادگی </h6>
+
+            </div>
+            <div class="drawer-body text-center mt-2 m-0 p-0">
+                <div class="d-flex justify-content-start mt-2 pr-3 align-items-center" id="div_icon"
+                    onmouseover="hovermyaccount();" onmouseout="unhovermyaccount();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/user2.png" alt="home_icon" class="img-icon img-fluid" id="my-account_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">حساب من</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hovercheck();" onmouseout="unhovercheck();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/check (1).png" alt="cart_icon" class=" img-icon img-fluid" id="check_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تائید استاد </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4 " id="div_icon"
+                    onmouseover="hoverspeech();" onmouseout="unhoverspeech();">
+                    <a href=" #" class="  mt-1 text-decoration-none">
+                        <img src="./image/speech.png" alt="list_icon" class="img-icon img-fluid" id="speech_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تعریف سمینار</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start  align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverbox();" onmouseout="unhoverbox();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/box.png" alt="news_icon" class="img-icon img-fluid" id="box_icon">
+                        <h5 class="icon_txt d-inline  mr-2 text-nowrap"> تائید کالا </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverwriting();" onmouseout="unhoverwriting();">
+                    <a href="#" class="  mt-1 text-decoration-none">
+                        <img src="./image/writing.png" alt="pack_icon" class="img-icon img-fluid" id="writing_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">monitoring</h5>
+                    </a>
+                </div>
+                <hr class="mx-auto mt-4" style="width:100%;text-align:left;margin-left:0;background-color: #c9c9c9c9;">
+                <div class="d-flex justify-content-start align-items-center pr-3" id="div_icon"
+                    onmouseover="hoverlogout();" onmouseout="unhoverlogout();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/logout.png" alt="pack_icon" class="img-icon img-fluid" id="logout_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">خروج از حساب کاربری</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Drawer -->
+
+    <!-- change icon when hover -->
+    <script src="./dist/js/Change_Icon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap-drawer.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // drawer
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+// end drawer
+    </script>
+</body>
+
+</html>

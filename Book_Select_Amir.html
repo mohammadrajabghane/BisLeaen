@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Events_Select.css">
+    <title>Book_Select</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <nav class="navbar navbar-expand pr-0 pl-0 pr-md-5 pl-md-5 navbar-light bg-white">
+            <a class="navbar-brand" href="#">Logo</a>
+
+            <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap " href="#">خانه <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">دوره آموزشی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">رویداد</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-nowrap" href="#">فروشگاه</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="nav-link" href="#">
+                <img src="./image/user.png" alt="icon" class="User_img">
+            </a>
+        </nav>
+
+    </header>
+    <!-- end nav -->
+
+    <main class="d-lg-flex h-50 row container-fluid mb-3" style="padding: 0 !important; margin: 0">
+        <div class="col-12 col-lg-4 h-100 d-flex justify-content-center align-items-center">
+            <img src="image/book.jpeg"
+                class="ml-lg-0 pl-lg-0 pl-2 pr-2 pb-4 pt-4 commodity-img d-flex justify-content-center" alt="">
+        </div>
+        <div class="col-12 col-lg-8 h-100">
+            <div class="row pl-lg-5 pl-2 pr-lg-3 pr-2 pb-4 pt-4">
+                <h3 class="col-12 d-flex font-set-commodity-title-menu">نام کتاب</h3>
+                <div class="col-12 border-bottom justify-content-between d-flex">
+                    <div class="w-100 text-right mt-4 mb-0 mb-lg-4">
+                        <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                            <span>دسته بندی : </span> <span></span>
+                        </p>
+                        <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                            <span>نام فروشنده : </span> <span></span>
+                        </p>
+                        <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                            <span>شماره فروشنده : </span> <span></span>
+                        </p>
+                        <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                            <span>تاریخ : </span> <span></span>
+                        </p>
+                        <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                            <span>توضیحات : </span> <span></span>
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="col-6 d-flex border-bottom">szdghsurgszs</div> -->
+
+                <div class="col-12 d-flex justify-content-end">
+                    <span class="m-2 font-set-commodity-menu">
+                        <span class="font-weight-bold">۲۳۰۰۰</span>
+                        <span class="font-weight-light" style="font-size: 15px;">تومان</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex mt-lg-4 justify-content-between w-100">
+            <h3 class="mr-3 font-set-commodity-title-menu  pr-lg-4">نظرات</h3>
+            <a href="#" class="btn btn-info ml-lg-5 ml-3 d-flex align-items-center pl-sm-3 pr-sm-3"
+                style="background-color: #1bbad4;border-color: #1bbad4;" id="loginLink">افزودن نظر جدید</a>
+        </div>
+        <div id="loginPanel" class="popup width-popup-fixed">
+            <article class="card mt-3">
+                <header class="p-3">
+                    <div class="d-flex border-bottom justify-content-between">
+                        <address class="font-set-commodity-menu">امیر حسین میرزایی</address>
+                        <time class="font-set-commodity-menu">۱۳۹۹/۱۱/۳</time>
+                    </div>
+                </header>
+
+                <textarea placeholder="متن نظر خود را بنویسید"
+                    class="text-center card-body text-right d-flex align-items-center font-set-corsce-title-menu pt-lg-4 pb-lg-4  mb-3 ml-3 mr-3 mt-0"
+                    style="color: #a2a2a2; border: 1px solid #eee;"></textarea>
+
+                <div class="w-100 d-flex align-items-center justify-content-center mb-1">
+                    <button class="m-2 btn btn-success w-25 text-nowrap p-2 pl-4 pr-4 font-set-commodity-menu"
+                        style="background-color: #52BD77;border-color: #52BD77;">ثبت</button>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="mask">&nbsp;</div>
+
+        <section class=" d-flex  w-100 p-3  justify-content-around flex-lg-row flex-column coments"
+            style="padding: 10px !important;">
+            <article class="card mt-3">
+                <header class="p-3">
+                    <div class="d-flex border-bottom justify-content-between">
+                        <address class="name_message_txt">امیر حسین میرزایی</address>
+                        <time class="name_message_txt">۱۳۹۹/۱۱/۳</time>
+                    </div>
+                </header>
+                <div class="card-body text-right d-flex align-items-center font-set-corsce-title-menu pt-lg-4 pb-lg-4"
+                    style="color: #a2a2a2;">
+                    یام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن
+                    پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام
+                </div>
+            </article>
+            <article class="card mt-3">
+                <header class="p-3">
+                    <div class="d-flex border-bottom justify-content-between">
+                        <address class="name_message_txt">امیر حسین میرزایی</address>
+                        <time class="name_message_txt">۱۳۹۹/۱۱/۳</time>
+                    </div>
+                </header>
+                <div class="card-body text-right d-flex align-items-center font-set-corsce-title-menu pt-lg-4 pb-lg-4"
+                    style="color: #a2a2a2;">
+                    یام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن
+                    پیام متن پیام متن پیام متن پیام متن پیام متن پیام متن پیام
+                </div>
+            </article>
+        </section>
+
+
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#loginLink').click(function () {
+                $("#mask").fadeIn()
+                $("#mask").click(function () {
+                    $('.popup').fadeOut()
+                    $(this).fadeOut()
+                })
+                // $("#loginPanel").draggable()
+                var w = $('body').width()
+                var h = $('body').height()
+                $("#loginPanel").fadeIn().css({ top: 400 })
+            })
+        })
+    </script>
+</body>
+
+</html>

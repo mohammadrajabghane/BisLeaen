@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <!-- meta tage for language support -->
+    <meta charset="UTF-8">
+    <!-- meta tage for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- import my style css -->
+    <link rel="stylesheet" href="./styles/css/Monitoring1.css">
+    <link rel="stylesheet" href="./styles/css/Navbar.css">
+    <title>Monitoring 1</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="text-light p-0 m-lg-0 fixed-top bgc-nav w-100">
+        <!-- navbar and site name -->
+        <div class="d-flex justify-content-around bgc-nav pt-lg-2 p-3 pb-3  float-lg-left col-lg-10 col-12">
+            <div class="mt-lg-3 mb-lg-2 w-100 flex-row-reverse d-lg-none">
+                <!-- write the site name  -->
+                <span class="">
+                    <strong class="float-left d-block" id="name-site">تعریف استاد</strong>
+                </span>
+                <!-- end write the site name -->
+
+                <!-- start menu -->
+                <span class="m-2 d-lg-none">
+                    <img class="float-right nav-sm-icon pt-1" src="./image/nav-icon.png" alt="icon" data-toggle="drawer"
+                        data-target="#drawer-1">
+                </span>
+                <!-- end menu -->
+            </div>
+
+            <div class="d-none d-lg-inline w-100 mr-5 ml-5 pl-4 pr-4">
+                <!-- start large menu -->
+                <nav class="d-none navbar-expand navbar-light d-flex justify-content-center mb-3 mt-3 w-100">
+                    <ul class="navbar-nav d-none d-lg-flex nav-fixed p-1 w-100 justify-content-between ">
+                        <li class="nav-item mr-5 d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> حساب من</a>
+                        </li>
+                        <li class="nav-item mr-5  d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> تائید استاد</a>
+                        </li>
+                        <li class="nav-item mr-5 d-flex align-items-center">
+                            <a class="nav-link pr-3 pl-3 text-white text-center nav-link A3 text-nowrap" href="#">تعریف
+                                سمینار</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center justify-self-start">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#">
+                                تائید کالا</a>
+                        </li>
+                        <li class=" ml-0 d-flex align-items-center" id="a1">
+                            <a class="nav-link text-white mx-auto text-white text-center  font-weight-bold  A3 text-nowrap font-set-name-site"
+                                href="#"> Monitoring</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- aside bar for large sizes and tab bar for small sizes -->
+        <div
+            class="bgc-nav float-lg-right justify-content-around col-lg-2 no-gutters p-0 position-fixed w-100 pt-4 pt-lg-0 d-none d-lg-block">
+            <!-- aside bar and tab bar -->
+            <div class="h-100 d-flex flex-row flex-lg-column mw-25">
+                <!-- this logo / is  not displayed in small sizes  -->
+                <a href="#" class="main-tab w-100 d-none d-lg-inline bgc-lg-icon border-none">
+                    <!-- this logo text -->
+                    <div>
+                        <img src="./image/logo.jpg" class="img-logo border-none  main-tab w-100" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <!-- end aside bar and tab bar  -->
+        </div>
+        <!-- end aside bar for large sizes and tab bar for small sizes -->
+    </header>
+    <!-- end header -->
+
+    <!-- content for desktop -->
+    <div class="content_div d-none d-lg-block">
+        <!-- small nav -->
+        <div class="w-100 d-flex back_nav pr-5">
+            <div class="w-50 d-flex justify-content-satart align-items-center font-weight-bold"
+                style="font-size: 18px;">سید
+                محمد علی رحبانی
+            </div>
+            <div class="w-50 d-flex justify-content-end align-items-center">
+                <a href="#" class="text-decoration-none">
+                    <div class="d-flex justify-content-center align-items-center pl-3">
+                        <h5 class="allprof_txt text-center mt-1 ml-3"> همه اساتید</h5>
+                        <img src="./image/back.png" alt="icon" style="width: 20px; height: 20px;">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- end small nav -->
+
+        <!-- info -->
+        <div class="row mt-4 state_row no-gutters">
+            <div class="col-3 d-flex justify-content-end  ">
+                <div class="user_img_div">
+                    <img src="./image/person.png" class="user_img" alt="person">
+                </div>
+            </div>
+            <div class="col-9 d-flex pr-5 justify-content-satart">
+                <div class="col-4 d-flex flex-column">
+                    <div class="d-flex">
+                        <h5 class="text-right text-nowrap ProfCou_name">نام استاد :</h5>
+                        <h6 class="text-right text-nowrap mr-2 content_txt">سید محمد علی رحبانی</h6>
+                    </div>
+                    <div class="d-flex info_div">
+                        <h5 class="text-right text-nowrap ProfCou_name"> مدرس :</h5>
+                        <h6 class="text-right text-nowrap mr-2 content_txt">زیست شناسی</h6>
+                    </div>
+                    <div class="d-flex info_div">
+                        <h5 class="text-right text-nowrap ProfCou_name">آدرس :</h5>
+                        <h6 class="text-right text-nowrap mr-2 content_txt">کرمان</h6>
+                    </div>
+                    <div class="d-flex info_div">
+                        <h5 class="text-right text-nowrap ProfCou_name">شماره تماس :</h5>
+                        <h6 class="text-right text-nowrap mr-2 content_txt">09123456789</h6>
+                    </div>
+                    <div class="d-flex info_div">
+                        <h5 class="text-right text-nowrap ProfCou_name"> ایمیل :</h5>
+                        <h6 class="text-right text-nowrap mr-2 content_txt">hossein@gmail.com</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end info -->
+
+        <!-- description -->
+        <div class="description_row d-flex justify-content-end flex-column">
+            <h5 class="text-right">توضیحات :</h5>
+            <textarea class="form-control w-100" rows="3">
+            </textarea>
+        </div>
+        <!-- end description -->
+
+        <div class="row button_row">
+            <div class="col-4 pr-4">
+                <button class="enterbutton2 text-nowrap btn btn-block " type="submit">
+                    تایید
+                </button>
+            </div>
+            <div class="col-4">
+                <div class="d-flex align-items-center">
+                    <button class="enterbutton2 btn text-nowrap  btn-block" type="submit">
+                        عدم تایید
+                    </button>
+                    <input type="text" class="reason_input pr-2" placeholder="دلیل عدم تایید">
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center  ">
+                <button class="download_button btn btn-block w-100 text-nowrap" type="submit">
+                    دانلود رزومه و اطلاعات
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- end content for desktop  -->
+
+    <!-- content for mobile -->
+    <div class="d-lg-none content_div_mobile">
+        <!-- small nav -->
+        <div class="w-100 d-flex  back_nav ">
+            <div class="d-flex justify-content-end align-items-center font-weight-bold text-nowrap" style="width: 85%;">
+
+            </div>
+            <div class="d-flex justify-content-end align-items-center" style="width: 15%;">
+                <a href="#" class="text-decoration-none">
+                    <div class="d-flex justify-content-center align-items-center pl-3">
+                        <h5 class="allprof_txt text-nowrap text-center mt-1 ml-3"> همه اساتید</h5>
+                        <img src="./image/back.png" alt="icon" class="set-size-img">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- end small nav -->
+
+        <!-- info -->
+        <div class="row mt-3" style="margin-left: 0px;">
+            <div class="col-7 d-flex justify-content-satart pr-4 flex-column">
+                <div class="d-flex">
+                    <h5 class="text-right text-nowrap ProfCou_name">نام استاد :</h5>
+                    <h6 class="text-right text-nowrap mr-1 content_txt">سید محمد علی رحبانی</h6>
+                </div>
+                <div class="d-flex info_div">
+                    <h5 class="text-right text-nowrap ProfCou_name"> مدرس :</h5>
+                    <h6 class="text-right text-nowrap mr-1 content_txt">زیست شناسی</h6>
+                </div>
+                <div class="d-flex info_div">
+                    <h5 class="text-right text-nowrap ProfCou_name">آدرس :</h5>
+                    <h6 class="text-right text-nowrap mr-1 content_txt">کرمان</h6>
+                </div>
+                <div class="d-flex info_div">
+                    <h5 class="text-right text-nowrap ProfCou_name">شماره تماس :</h5>
+                    <h6 class="text-right text-nowrap mr-1 content_txt">09123456789</h6>
+                </div>
+                <div class="d-flex info_div">
+                    <h5 class="text-right text-nowrap ProfCou_name"> ایمیل :</h5>
+                    <h6 class="text-right text-nowrap mr-1 content_txt">hossein@gmail.com</h6>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="user_img_div">
+                    <img src="./image/person.png" class="user_img" alt="person">
+                </div>
+            </div>
+        </div>
+        <!-- end info -->
+
+        <!-- line -->
+        <hr class="mx-auto" style="width:90%;text-align:left;margin-left:0">
+        <!-- end line -->
+
+        <div class="d-flex  pr-3">
+            <span class="dot"></span>
+            <h5 class="text-right Description_txt pr-2">توضیحات :</h5>
+        </div>
+        <div class="form-group pr-3 pl-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">
+
+            </textarea>
+        </div>
+
+        <div class="row no-gutters pr-3">
+            <div class="col-3">
+                <button class="enterbutton3 w-100 text-nowrap btn btn-block" type="submit">
+                    تائید</button>
+            </div>
+            <div class="col-3 d-flex">
+                <button class="enterbutton3 w-100 mr-4  text-nowrap btn btn-block " type="submit">
+                    عدم تائید
+                </button>
+            </div>
+            <div class="col-6 pl-3 d-flex justify-content-satart">
+                <input type="text" class="reason_input2 w-100 pr-2" placeholder="دلیل عدم تایید.....">
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end pr-3 pl-3">
+            <button class="download_button mx-auto w-100 btn btn-block text-nowrap" type="submit">
+                دانلود رزومه و اطلاعات </button>
+        </div>
+    </div>
+    <!-- end content for mobile -->
+</body>
+
+<!-- Drawer -->
+<div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title" aria-hidden="true"
+    id="drawer-1" style="border: none !important; width:260px;">
+    <div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+        <div class="drawer-header" style="background-color: #52b632;">
+            <img src="./image/bill2.jpeg" alt="logo" class="profile_img img-fluid rounded-circle mr-2 mt-2">
+            <h6 class="user-name text-white m-0 mt-3 mr-2 text-nowrap text-right"> نام و نام خانوادگی </h6>
+
+        </div>
+        <div class="drawer-body text-center mt-2 m-0 p-0">
+            <div class="d-flex justify-content-start mt-2 pr-3 align-items-center" id="div_icon"
+                onmouseover="hovermyaccount();" onmouseout="unhovermyaccount();">
+                <a href="#" class="mt-1 text-decoration-none">
+                    <img src="./image/user2.png" alt="home_icon" class="img-icon img-fluid" id="my-account_icon">
+                    <h5 class="icon_txt d-inline mr-2 text-nowrap">حساب من</h5>
+                </a>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                onmouseover="hovercheck();" onmouseout="unhovercheck();">
+                <a href="#" class=" mt-1 text-decoration-none">
+                    <img src="./image/check (1).png" alt="cart_icon" class=" img-icon img-fluid" id="check_icon">
+                    <h5 class="icon_txt d-inline mr-2 text-nowrap">تائید استاد </h5>
+                </a>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-center pr-3 mt-4 " id="div_icon"
+                onmouseover="hoverspeech();" onmouseout="unhoverspeech();">
+                <a href=" #" class="  mt-1 text-decoration-none">
+                    <img src="./image/speech.png" alt="list_icon" class="img-icon img-fluid" id="speech_icon">
+                    <h5 class="icon_txt d-inline mr-2 text-nowrap">تعریف سمینار</h5>
+                </a>
+            </div>
+
+            <div class="d-flex justify-content-start  align-items-center pr-3 mt-4" id="div_icon"
+                onmouseover="hoverbox();" onmouseout="unhoverbox();">
+                <a href="#" class=" mt-1 text-decoration-none">
+                    <img src="./image/box.png" alt="news_icon" class="img-icon img-fluid" id="box_icon">
+                    <h5 class="icon_txt d-inline  mr-2 text-nowrap"> تائید کالا </h5>
+                </a>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                onmouseover="hoverwriting();" onmouseout="unhoverwriting();">
+                <a href="#" class="  mt-1 text-decoration-none">
+                    <img src="./image/writing.png" alt="pack_icon" class="img-icon img-fluid" id="writing_icon">
+                    <h5 class="icon_txt d-inline mr-2 text-nowrap">monitoring</h5>
+                </a>
+            </div>
+            <hr class="mx-auto mt-4" style="width:100%;text-align:left;margin-left:0;background-color: #c9c9c9c9;">
+            <div class="d-flex justify-content-start align-items-center pr-3" id="div_icon" onmouseover="hoverlogout();"
+                onmouseout="unhoverlogout();">
+                <a href="#" class="mt-1 text-decoration-none">
+                    <img src="./image/logout.png" alt="pack_icon" class="img-icon img-fluid" id="logout_icon">
+                    <h5 class="icon_txt d-inline mr-2 text-nowrap">خروج از حساب کاربری</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Drawer -->
+
+<!-- change icon when hover -->
+<script src="./dist/js/Change_Icon.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="./dist/js/bootstrap-drawer.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+    // drawer
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+        // end drawer
+</script>
+
+</html>

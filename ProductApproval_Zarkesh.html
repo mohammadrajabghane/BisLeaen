@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <!-- meta tage for language support -->
+    <meta charset="UTF-8">
+    <!-- meta tage for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- import my style css -->
+    <link rel="stylesheet" href="styles/css/ProductApproval.css">
+    <link rel="stylesheet" href="styles/css/Navbar.css">
+    <!-- this is the title -->
+    <title> ProductApproval</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="text-light p-0 m-lg-0 fixed-top bgc-nav w-100">
+        <!-- navbar and site name -->
+        <div class="d-flex justify-content-around bgc-nav pt-lg-2 p-3 pb-3  float-lg-left col-lg-10 col-12">
+            <div class="mt-lg-3 mb-lg-2 w-100 flex-row-reverse d-lg-none">
+                <!-- write the site name  -->
+                <span class="">
+                    <strong class="float-left d-block" id="name-site">تائید استاد</strong>
+                </span>
+                <!-- end write the site name -->
+
+                <!-- start menu -->
+                <span class="m-2 d-lg-none">
+                    <img class="float-right nav-sm-icon pt-1" src="./image/nav-icon.png" alt="icon" data-toggle="drawer"
+                        data-target="#drawer-1">
+                </span>
+                <!-- end menu -->
+            </div>
+
+            <div class="d-none d-lg-inline w-100 mr-5 ml-5 pl-4 pr-4">
+                <!-- start large menu -->
+                <nav class="d-none navbar-expand navbar-light d-flex justify-content-center mb-3 mt-3 w-100">
+                    <ul class="navbar-nav d-none d-lg-flex nav-fixed p-1 w-100 justify-content-between ">
+                        <li class="nav-item mr-4 d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> حساب من</a>
+                        </li>
+                        <li class="nav-item mr-4  d-flex align-items-center">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#"> تائید استاد</a>
+                        </li>
+                        <li class="nav-item mr-4 d-flex align-items-center">
+                            <a class="nav-link pr-3 pl-3 text-white text-center nav-link A3 text-nowrap" href="#">تعریف
+                                سمینار</a>
+                        </li>
+                        <li class="nav-item ml-0 d-flex align-items-center " id="a1">
+                            <a class="nav-link text-white text-nowrap mx-auto text-white text-center nav-link A3 text-nowrap font-set-name-site"
+                                href="#">تائید کالا</a>
+                        </li>
+                        <li class="nav-item mr-2 ml-4 d-flex align-items-center justify-self-start">
+                            <a class="nav-link text-white text-center nav-link A3 text-nowrap" href="#">
+                                Monitoring</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!-- aside bar for large sizes and tab bar for small sizes -->
+        <div
+            class="bgc-nav float-lg-right justify-content-around col-lg-2 no-gutters p-0 position-fixed w-100 pt-4 pt-lg-0 d-none d-lg-block">
+            <!-- aside bar and tab bar -->
+            <div class="h-100 d-flex flex-row flex-lg-column mw-25">
+                <!-- this logo / is  not displayed in small sizes  -->
+                <a href="#" class="main-tab w-100 d-none d-lg-inline bgc-lg-icon border-none">
+                    <!-- this logo text -->
+                    <div>
+                        <img src="./image/logo.jpg" class="img-logo border-none  main-tab w-100" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <!-- end aside bar and tab bar  -->
+        </div>
+        <!-- end aside bar for large sizes and tab bar for small sizes -->
+    </header>
+
+    <!-- end header -->
+
+
+    <!-- margin top (menu > main content) -->
+    <div class="margin-top-main"></div>
+    <!-- end margin top (menu > main content) -->
+
+    <!-- main content -->
+    <main class="container-fluid width-main">
+        <div class="d-flex flex-row justify-content-between bg-white"
+            style="border-right: 8px solid #6dc703;border-left: 8px solid #6dc703;">
+            <div class="w-100 d-flex flex-column ml-3 mr-4">
+                <div
+                    class="text-right  pt-sm-4 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    نام کالا : <span class=" font-weight-normal set-text-color">سید محمد علی رحبانی</span></div>
+                <div
+                    class="text-right pt-sm-3 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    فروشنده : <span class=" font-weight-normal set-text-color">زیست شناسی</span></div>
+                <div class="text-right pt-sm-3 pt-3 font-weight-bold font-size-res">
+                    توضیحات : <span class=" font-weight-normal set-text-color text-nowrap">زیست شناسی</span>
+                    <div class="float-left d-none d-md-flex justify-content-center btn btns text-white">وضعیت : عدم
+                        تایید</div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <img src="image/book.png" class="m-2 mt-3 mb-3 set-size-img" alt="logo">
+                <div
+                    class="float-left d-md-none d-flex align-items-center justify-content-center btn btns text-white mt-0 mb-2 ml-2 text-nowrap">
+                    وضعیت : عدم تایید</div>
+            </div>
+
+        </div>
+        <br>
+        <div class="d-flex flex-row justify-content-between bg-white"
+            style="border-right: 8px solid #6dc703;border-left: 8px solid #6dc703;">
+            <div class="w-100 d-flex flex-column ml-3 mr-4">
+                <div
+                    class="text-right  pt-sm-4 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    نام کالا : <span class=" font-weight-normal set-text-color">سید محمد علی رحبانی</span></div>
+                <div
+                    class="text-right pt-sm-3 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    فروشنده : <span class=" font-weight-normal set-text-color">زیست شناسی</span></div>
+                <div class="text-right pt-sm-3 pt-3 font-weight-bold font-size-res">
+                    توضیحات : <span class=" font-weight-normal set-text-color text-nowrap">زیست شناسی</span>
+                    <div
+                        class="float-left d-none  d-md-flex align-items-center justify-content-center  btn btns text-nowrap text-white mb-2 bg-warning">
+                        وضعیت : برسی نشده</div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <img src="./image/book.png" class="m-2 mt-3 mb-3 set-size-img" width="165px" alt="logo">
+                <div
+                    class="float-left d-md-none d-flex justify-content-center btn btns text-white mt-0 mb-2 ml-2 text-nowrap  bg-warning">
+                    وضعیت : برسی نشده</div>
+            </div>
+
+        </div>
+        <br>
+        <div class="d-flex flex-row justify-content-between bg-white"
+            style="border-right: 8px solid #6dc703;border-left: 8px solid #6dc703;">
+            <div class="w-100 d-flex flex-column ml-3 mr-4">
+                <div
+                    class="text-right  pt-sm-4 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    نام کالا : <span class=" font-weight-normal set-text-color">سید محمد علی رحبانی</span></div>
+                <div
+                    class="text-right pt-sm-3 pb-sm-3 pt-3 pb-3 border-bottom font-weight-bold font-size-res text-nowrap">
+                    فروشنده : <span class=" font-weight-normal set-text-color">زیست شناسی</span></div>
+                <div class="text-right pt-sm-3 pt-3 font-weight-bold font-size-res">
+                    توضیحات : <span class=" font-weight-normal set-text-color text-nowrap">زیست شناسی</span>
+                    <div class="float-left d-none d-md-flex justify-content-center btn btns text-white mb-2 "
+                        style=" background-color: #3ac02c;">وضعیت : تایید شده</div>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <img src="./image/book.png" class="m-2 mt-3 mb-3 set-size-img" width="165px" alt="logo">
+                <div class="float-left d-md-none d-flex justify-content-center btn btns text-white mt-0 mb-2 ml-2 text-nowrap"
+                    style=" background-color: #3ac02c;">وضعیت : تایید شده</div>
+            </div>
+
+        </div>
+
+    </main>
+    <!-- end main content -->
+
+    <!-- Drawer -->
+    <div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title"
+        aria-hidden="true" id="drawer-1" style="border: none !important; width:260px;">
+        <div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+            <div class="drawer-header" style="background-color: #52b632;">
+                <img src="./image/bill2.jpeg" alt="logo" class="profile_img img-fluid rounded-circle mr-2 mt-2">
+                <h6 class="user-name text-white m-0 mt-3 mr-2 text-nowrap text-right"> نام و نام خانوادگی </h6>
+
+            </div>
+            <div class="drawer-body text-center mt-2 m-0 p-0">
+                <div class="d-flex justify-content-start mt-2 pr-3 align-items-center" id="div_icon"
+                    onmouseover="hovermyaccount();" onmouseout="unhovermyaccount();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/user2.png" alt="home_icon" class="img-icon img-fluid" id="my-account_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">حساب من</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hovercheck();" onmouseout="unhovercheck();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/check (1).png" alt="cart_icon" class=" img-icon img-fluid" id="check_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تائید استاد </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4 " id="div_icon"
+                    onmouseover="hoverspeech();" onmouseout="unhoverspeech();">
+                    <a href=" #" class="  mt-1 text-decoration-none">
+                        <img src="./image/speech.png" alt="list_icon" class="img-icon img-fluid" id="speech_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">تعریف سمینار</h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start  align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverbox();" onmouseout="unhoverbox();">
+                    <a href="#" class=" mt-1 text-decoration-none">
+                        <img src="./image/box.png" alt="news_icon" class="img-icon img-fluid" id="box_icon">
+                        <h5 class="icon_txt d-inline  mr-2 text-nowrap"> تائید کالا </h5>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-start align-items-center pr-3 mt-4" id="div_icon"
+                    onmouseover="hoverwriting();" onmouseout="unhoverwriting();">
+                    <a href="#" class="  mt-1 text-decoration-none">
+                        <img src="./image/writing.png" alt="pack_icon" class="img-icon img-fluid" id="writing_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">monitoring</h5>
+                    </a>
+                </div>
+                <hr class="mx-auto mt-4" style="width:100%;text-align:left;margin-left:0;background-color: #c9c9c9c9;">
+                <div class="d-flex justify-content-start align-items-center pr-3" id="div_icon"
+                    onmouseover="hoverlogout();" onmouseout="unhoverlogout();">
+                    <a href="#" class="mt-1 text-decoration-none">
+                        <img src="./image/logout.png" alt="pack_icon" class="img-icon img-fluid" id="logout_icon">
+                        <h5 class="icon_txt d-inline mr-2 text-nowrap">خروج از حساب کاربری</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Drawer -->
+
+    <!-- change icon when hover -->
+    <script src="./dist/js/Change_Icon.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap-drawer.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // drawer
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        // end drawer
+    </script>
+</body>
+
+</html>
